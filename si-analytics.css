@@ -1,0 +1,132 @@
+/* ======================================================
+   SI Analytics — R Markdown Branding
+   Author: Strategic Insights & Analytics
+   ====================================================== */
+
+/* ---- Brand Tokens ---- */
+:root {
+  --si-navy: #082B4D;
+  --si-teal: #1F9E89;
+  --si-gold: #F4C430;
+  --si-gray: #6B7280;
+  --si-white: #F8FAFC;
+}
+
+/* ---- Base Typography ---- */
+html {
+  font-size: 18px; /* Increases overall scale */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: var(--si-gray);
+  background-color: var(--si-white);
+}
+
+/* ---- Headings ---- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--si-navy);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid var(--si-teal);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.7rem;
+  border-left: 5px solid var(--si-teal);
+  padding-left: 0.6em;
+}
+
+h3 {
+  font-size: 1.35rem;
+  border-left: 5px solid var(--si-navy);
+  padding-left: 0.6em;
+  margin-top: 1.8em;
+}
+
+/* ---- Paragraphs & Lists ---- */
+p,
+li {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* ---- Links ---- */
+a {
+  color: var(--si-teal);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Code Blocks ---- */
+pre, code {
+  background-color: #F1F5F9;
+  border-radius: 6px;
+}
+
+pre {
+  padding: 1em;
+  border-left: 4px solid var(--si-teal);
+}
+
+code {
+  color: var(--si-navy);
+}
+
+/* ---- Tables ---- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.2em 0;
+}
+
+th {
+  background-color: var(--si-navy);
+  color: white;
+  padding: 0.6em;
+}
+
+td {
+  padding: 0.6em;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* ---- Blockquotes / Callouts ---- */
+blockquote {
+  border-left: 5px solid var(--si-gold);
+  padding: 0.8em 1em;
+  background-color: #FFF9E6;
+  color: #374151;
+}
+
+/* ---- TOC ---- */
+.tocify {
+  background-color: #F1F5F9;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.tocify-item.list-group-item.active {
+  background-color: var(--si-teal);
+  border-color: var(--si-teal);
+  color: white;
+}
+
+/* ---- Footer Signature (Optional) ---- */
+.si-footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #E5E7EB;
+  font-size: 0.9em;
+  color: var(--si-gray);
+}

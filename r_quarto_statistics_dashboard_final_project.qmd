@@ -7,6 +7,7 @@ date: today
 format:
   html:
     self-contained: true
+    css: si-analytics.css
     grid:
       margin-width: 350px
   pdf: default
