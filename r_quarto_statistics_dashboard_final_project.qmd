@@ -1,0 +1,111 @@
+---
+title: "R for Data Analysis & Visualization Final Project"
+subtitle: "Preparing a Technical Report with Quarto Markdown"
+author: "SI Analytics"
+date: today
+
+format:
+  html:
+    self-contained: true
+    grid:
+      margin-width: 350px
+  pdf: default
+---
+
+## **Introduction**
+
+Welcome to the final project of the **R for Data Analysis and Visualization** course.
+
+
+For this project, you will build a professional, Quarto report that explores and visualises real-world data from [Gapminder](https://gapminder.org/data). This project is designed to help you consolidate your skills in data import, cleaning, transformation, visualisation, and analytical storytelling using R.
+
+You can view the sample reports by clicking on the links below.
+
+[**VIEW SAMPLE REPORT IN NEW TAB**](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html){target="_blank"}
+
+[**VIEW ANOTHER SAMPLE REPORT IN NEW TAB**](https://gbengasaolu.github.io/rmc_life_satisfaction_webpage_gb/){target="_blank"}
+
+Your final quarto report should be portfolio-ready and suitable for sharing with future employers, collaborators, or professional networks.
+
+::: {.callout-note appearance="simple" icon="true"}
+**Systematic vs just-in-time learning**
+
+As you work on this project, you will encounter many functions and concepts you have not previously learned. You'll therefore be required to pick these up "on the go" as you move through the analysis. This type of just-in-time learning, where you acquire knowledge exactly at the point when you need it, is quite different from the systematic, front-loaded learning approach that we have used throughout the course thus far, where all relevant information was presented before it was applied or tested.
+
+Just-in-time learning will require you to be proactive in seeking out resources and asking for help when needed. It may be challenging at times, but it is a valuable skill to have as a data analyst and will serve you well in your future career.
+:::
+
+## **Project Requirements**
+
+### Data Selection
+
+- Choose at least **two indicators** from the [Gapminder data repository](https://gapminder.org/data).
+
+- You may subset your analysis to a single year or analyse patterns across multiple years.
+
+- Your two indicators should allow for meaningful descriptive comparison or relationship exploration. Examples include:
+
+  - Life expectancy and income per person
+  - Child mortality and health expenditure
+  - Population and CO2 emissions
+  - Fertility rate and child mortality
+  - Literacy rate and income per person
+
+- If you would prefer to use alternative datasets that are more relevant to your professional work, please prepare to discuss your proposal with the instructional team during the workshop 8 live session. Your final report must still meet the requirements in the grading rubric.
+
+### Report Structure
+
+Your report should contain **at least three sections**, including the following:
+
+1. **First Indicator Analysis**  
+   Explore trends, distributions, rankings, or geographic patterns for your first selected indicator.
+
+2. **Second Indicator Analysis**  
+   Explore trends, distributions, rankings, or geographic patterns for your second selected indicator.
+
+3. **Relationship Between the Two Indicators**  
+   Compare both indicators descriptively using charts, tables, or other report elements. No formal statistical modelling is required. The relationship analysis may be purely descriptive and graphical.
+
+
+## **Read the rubric**
+
+As you work on your analysis, you should keep in mind the following rubric against which your work will be graded. Your report will be assessed along the following five dimensions:
+
+### Data wrangling (30% of grade)
+
+To get full credit in this category, you will need to demonstrate that you have used appropriate data wrangling techniques to prepare the data for analysis. This includes cleaning and organizing the data, selecting relevant variables, and grouping and summarizing the data as needed. 
+To score maximum points here, it would be wise to pick and present statistics that are not too `*easy*` to calculate. At least a few of the numbers you present should have required substantial data wrangling steps with `dplyr` verbs. 
+In particular, we recommend that, somewhere in your qmd, you should use at least eight of the eight dplyr functions covered in the data wrangling chapter (`select()`, `filter()`, `mutate()`, `case_when()`, `group_by()`, `summarize()`, `left_join ()`, `inner_join()`, `right_join()`, `full_join()`, `pivot_wider()` and `pivot_longer()`)
+
+### Quality of figures (30%)
+
+To get full credit in this category, you will need to create at least six interactive plotly charts or ggplot-based figures that are clear, informative, and aesthetically pleasing. You should also make sure to include appropriate titles and labels for your figures.
+
+### Communication of insights (15%)
+
+To get full credit in this category, you will need to clearly and concisely communicate your findings and insights from the data analysis. This includes writing clear, concise, and well-organized text, as well as effectively using the figures you have created to support your insights.
+
+### Use of Quarto markdown (15%)
+
+To get full credit in this category, you will need to demonstrate that you have effectively used quarto markdown to create a professional-looking document. This includes using appropriate formatting, including headings and lists, and using quarto markdown features such as inline code. This is your reference site for quarto markdown. Select great theme (Link: https://quarto.org/docs/output-formats/html-basics.html)
+
+### Syntax and code formatting (10%)
+
+To get full credit in this category, you will need to demonstrate that you have used clean, well-organized code that is easy to read and understand. This includes using appropriate indentation, commenting your code, and using clear, descriptive variable names.
+
+
+
+## **Submission**
+
+You will be asked to submit:
+
+- Your completed Quarto `.qmd` file
+- Any supporting data files used
+- A link to your deployed report, preferably through GitHub Pages or another approved platform
+
+Your report should render successfully before submission.
+
+
+## **Final Reminder**
+
+Your goal is not only to complete a technical exercise. Your goal is to produce a polished, professional report that demonstrates your ability to use R and Quarto to turn real-world data into clear, meaningful, and shareable insights.
